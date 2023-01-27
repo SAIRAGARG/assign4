@@ -1,0 +1,87 @@
+i=int(input("enter your marks:" ))
+if i<=25:
+    print("your grade is F")
+elif 25<i<=45:
+    print("your grade is E")
+elif 45 < i <= 50:
+    print("your grade is D")
+elif 50< i <= 60:
+    print("your grade is C")
+elif 60 < i <= 80:
+    print("your grade is B")
+else:
+    print("your grade is A")
+
+
+#2
+year=int(input("enter the year:"))
+if year%4==0 and year%100!=0:
+    print("its a leap year")
+elif year%400==0:
+    print("its a leap year")
+else:
+    print("its not a leap year")
+
+
+#3
+a=int(input("ques 1: 3*4="))
+if a==12:
+    print("right!")
+else:
+    print("wrong! the ans is 12")
+
+b=int(input("ques 2: 7*3="))
+if b==21:
+    print("right!")
+else:
+    print("wrong! the ans is 21")
+
+c=int(input("ques 3: 5*3="))
+if c==15:
+    print("right!")
+else:
+    print("wrong! the ans is 15")
+
+d = int(input("ques 4: 3*9="))
+if d==27:
+     print("right!")
+else:
+    print("wrong! the ans is 27")
+
+e=int(input("ques 5: 7*7="))
+if e==49:
+    print("right!")
+else:
+    print("wrong! the ans is 49")
+
+f=int(input("ques 6: 4*4="))
+if f==16:
+    print("right!")
+else:
+    print("wrong! the ans is 16")
+
+g=int(input("ques 7: 9*4="))
+if g==36:
+    print("right!")
+else:
+    print("wrong! the ans is 36")
+
+h=int(input("ques 8: 6*4="))
+if h==4:
+    print("right!")
+else:
+    print("wrong! the ans is 24")
+
+i=int(input("ques 9: 3*9="))
+if i==27:
+    print("right!")
+else:
+    print("wrong! the ans is 27")
+
+j=int(input("ques 10: 4*8="))
+if j==32:
+    print("right!")
+else:
+    print("wrong! the ans is 32")
+
+#4
